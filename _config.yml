@@ -101,9 +101,15 @@ theme: pure
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
+# deploy:
+#      type: git
+
+#      repo: https://github.com/mrz2019/mrz2019.github.io.git
+
+#      branch: master
+
+
 deploy:
-     type: git
-
-     repo: https://github.com/mrz2019/mrz2019.github.io.git
-
-     branch: master
+    type: heroku
+    repo: https://git.heroku.com/hexo2021.git  
+    message:   
